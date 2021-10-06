@@ -1,0 +1,10 @@
+const path = require('path')
+module.exports = {
+    mode: 'development',  // 开发使用
+    //'production' 发布使用
+    entry: './src/index.js',
+    output: {
+        // filename: 'main.js'
+        filename: '[name].[contenthash].js'
+    }
+}
