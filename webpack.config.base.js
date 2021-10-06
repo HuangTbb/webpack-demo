@@ -1,6 +1,4 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")
-const path = require('path')
 module.exports = {
     mode: 'development',  // 开发使用
     entry: './src/index.js',
