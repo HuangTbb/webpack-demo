@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build" : "rimraf dist && npx webpack",
+    "build": "rimraf dist && npx webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "html-webpack-plugin": "4",
     "webpack": "4",
     "webpack-cli": "3"
   }
