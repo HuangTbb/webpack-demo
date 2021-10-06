@@ -12,4 +12,12 @@ module.exports = {
         title: '写代码啦',
         template: 'src/assets/index.html'
     })],
+    module: {
+        rules: [
+            {
+                test: /\.css$/i,
+                use: ['style-loader', 'css-loader']
+            }
+        ]
+    }
 }
