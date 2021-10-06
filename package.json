@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && npx webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "html-webpack-plugin": "4",
     "style-loader": "1.0.1",
     "webpack": "4",
-    "webpack-cli": "3"
+    "webpack-cli": "3",
+    "webpack-dev-server": "3.9.0"
   }
 }
