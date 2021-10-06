@@ -8,5 +8,8 @@ module.exports = {
         // filename: 'main.js'
         filename: '[name].[contenthash].js'
     },
-    plugins: [new HtmlWebpackPlugin()],
+    plugins: [new HtmlWebpackPlugin({
+        title: '写代码啦',
+        template: 'src/assets/index.html'
+    })],
 }
